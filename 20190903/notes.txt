@@ -1,0 +1,18 @@
+- -o compiler flag allows you to include an argument (next thing) which will be the name of the executable
+- inventor of modern mathematical logic was george boole, the last 
+    mathematical logic textbook before him was aristotle
+- bool data just like in C but no new library needed
+- & used to be Et and just got closer & closer together
+- bitwise or 01 | 10 become 11
+- bitwise and 01 & 10 become 00
+- remember, all comparisons must be serparate and attached with && ||
+- C++ evaluates from left to right, and as soon as something in the
+    conditional statement is false, it stops evaluating and doesn't bother
+    with the rest of it
+- You can make safety checks in your conditional statements, even if they
+    are all sameline
+- for example :
+    if (denominator != 0 && (numerator / denominator) == 2)
+    {
+        do stuff;
+    } 
