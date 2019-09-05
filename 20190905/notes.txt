@@ -1,0 +1,15 @@
+- semantic error vs syntacic error, semantic will not be caught by the
+    compiler, ie x = 4 is true, but is not the logical comparison that you
+    are probably looking to do.
+- don't forget your return zeroes
+- for (int counter = 0; counter < 10; counter++){}
+- you can't access the counter from outside the for loop
+- if you declare a variable within braces of a while loop, or and if
+    statement you can't use that variable anywhere else in the program
+    that's called scope, you know, SCOPE THAT THING YOU KEPT GETTING
+    COMPILER ERRORS FOR FOREVER WITHOUT UNDERSTANDING
+- 42's programming rules taught you how to avoid scope errors without
+    actually understanding scope. rules such as, declare all variables at
+    the top of functions, don't reuse variable names
+- if you know how many times the code will repeat, use a for loop
+- when you don't know how long the code will run for, use while loop
