@@ -1,0 +1,19 @@
+- TABLE OF CONTENTS AS MAIN
+- we don't know how any of this stuff is getting done, but it
+    will be done in the functions
+- cout << static_cast<string>"hewo".length << endl;
+- magic numbers are shit. what's a magic number? it's when you
+    have weird, random numbers in your code that don't have
+    declared variable names. use const ints
+- you can only initialize const at the top, and also u gotta
+    assign a value
+- you're supposed to use ALL_CAPS with underscores 
+- there is a school of thought that states that there should be
+    only one return statement per function but there reasoning
+    is only "becuz it will be neater"
+- stanford is The Bad Place
+- global variables are bad and will cause bugs
+- HOWEVER you CAN use global const variables
+- refactoring == changing your program not because you are
+    trying to change the code but just because yuo want to make
+    it clearer, easier to read and change in the future

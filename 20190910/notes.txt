@@ -1,0 +1,6 @@
+- call by value - when you call a new function, and you pass parameters which get assigned values by previous function
+- if you have if else statements, all cases must return a variable
+- once you return, you leave the entire function
+- you are actually supposed to use return keyword at end of void functions, you just don't return anything
+- functional decomposition - breaking your code up into its component parts
+- main function should look like table of contents
