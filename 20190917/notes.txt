@@ -1,0 +1,24 @@
+- one of the best skills you can have as a programmer is the ability to look at a problem and break
+    it up into component parts
+- one thing to avoid is having a main function that calls only one (or 2) really large functions
+- try to use return type bool if the only return options are 1 or 0. using ints instead of bools in
+    that case is hella old fashioned C programming style, like you are programming like the guy from
+    the 80s movie with the giant wirefram glasses and pocket protector
+- passing a stack array:
+    recieving function prototype = void recieving_function(int array[]){}
+    function call = recieving_function(array);
+- never initialize an array using a non constant variable. it makes your code less portable and is
+    considered bad style. you can only get away with it using gcc compilers
+- ask after class about WHY again. because it doesn't make sense. he said that if you malloc it
+    there could still be a problem
+- stack is where u allocate stuff that you don't know the size of
+- heap is where u allocate stuff u know the size of
+- memory you cannot access because your computer loses track of it and can no longer use it
+- remember that you cannot return a non malloced stack array
+
+- declare child and senior cost as 2 different entities, even thought they are the same value.
+    because they are the same price but different conceptually
+- if statement doesn't need the same cout in it every time, avoid repeated lines in multiple if
+    statements
+- if you want to change it down the road, then ideally you should only have to change one thing in
+    one place
