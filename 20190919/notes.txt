@@ -1,0 +1,36 @@
+- if you change the string in another function like string = "hello" while string was string = "hi" in main
+    then you can rename string
+- if you pass array[] and reassign, that will change the values everywhere!
+- passing string passes by value, arrays pass by reference because they can be EXTREMELY long
+- there is a specific place in 2d arrays for rows vs columns. correct form is: array[ROWS][COULMNS]
+- when you are dealing with a 2d array, you must give the number of rows and columns in the braces,
+    even if you initialize it with all the values directly after because the way 2d arrays are stored in
+    memory is actually not in 2d, it is just in one big chonk allocated using ROWS * COLUMNS
+- jk you actually only really need the [COLUMNS] number declared
+- try to avoid using i, j, x, y, z as the nested variables
+    use index for 1d
+    use row & col for 2d
+    use row, column, depth for 3d
+
+HASH TABLES
+- open adressing = when you find the next address available after the one that the hashing algorithm wants
+- linear probing = linear search to find the next available spot. a kind of open adressing
+- if you used an open adressing method in you hashing algorithm, then ya gotta use it when you are
+    retrieving too
+- u can make the hash table way bigger than needed to avoid possible collisions
+- load factor = total items stored / items in the array
+- chaining or closed adressing = at each adress in the array, store a pointer to the first node in a linked
+    list
+- then just use a standard linked list traversal to find what youre looking for
+- traversing a linked list comes at some cost, if the load factor is low it may be more efficient to use
+    open adressing
+- primary clustering - keys bunching together in the array
+- plus 3 rehash - another type of open adressing looking at every 3rd spot along until a clear spot is found
+- quadratic probing - square the number of failed attempts and go along that far
+- double hashing - applies a second hashing function to the key when a collision occurs
+- if you know all the keys in advance, you can come up with a perfect hashing algorithm
+- objectives:
+    - minimize collisions
+    - uniform distribution of hash values
+    - easy to calculate
+    - resolve any collisions using suitable methods
