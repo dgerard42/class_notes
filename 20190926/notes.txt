@@ -1,0 +1,36 @@
+- selection sort
+    -search for min and max (just min is better)
+    - put min at front and max at end
+    - go thru find second smalelst, swap
+    - GO thru remaining and find the next smallest, swap
+    - and so on
+- bubble sort
+    - you always know the last 2 are sorted after the first pass
+-insertion sort
+    -find minimum item, shift every item
+- heap, merge, and quick sort are all recursive
+- computer science is about finding the theory and math behind a program
+- computer engineers do the debugging
+
+VECTORS
+-it's easy to resize them
+-all of their functions are in the STL
+-the STL is gr8
+- declare vector: vector<int> emptyVector; inside the <> you put the data type that u wany the 
+    vector to contain
+- use bracket notation to fill the vector:
+    stringVector[0] = "bep";
+    stringVector[1] = "bop";
+    stringVector[2] = "bem";
+- u can still read off the end of a vector
+- stringVector.size() = tells you how many spaces there are, not how many are filled;
+- vector<string> stringVector[4]; declaring memory for the string variable
+- arrays are way speeeeeeeeeeeedier and more space efficient
+- new_vector.push_back("hallo");
+- c++ has a lot of dinosaur functions in the library
+- until very recently, c++ was reverse compatible with C
+- also, more stuff in c++ than in any other language
+- you can access inside a vector with brackets, but also with the at function ie:
+    stringVector.at(0) same things as stringVector[0]
+- pop removeslast item from the array
+- push adds to the end 

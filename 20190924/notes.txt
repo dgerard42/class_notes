@@ -1,0 +1,24 @@
+2d array review, search algorithms, intro to vectors
+_____ REVIEW _____
+- people writing programs that handle all sorts of integer inputs
+- if you change an array in a function, you change it outside too
+- arrays are pass by refernece. you cannot return an array from a function. if you change an array
+    in a function 
+- refernce will always store an address, where a pointer can sometimes store a NULL value
+- going to a NULL value pointer will crash the computer (how did I not know this? maybe he means
+    attempting to do something with a NULL pointer? because I have definitely used NULL pointer
+    if statements in my code, a lot)
+- heisenbug - when they don't occur in development enviroment, but do in test enviroment
+- off by one errors are the DEVIL
+_____ SEARCH ALGOS _____
+problem 1
+if no length possible
+- go thru array
+- check each element and check if 137, if 137 then return true
+if length possible
+- divide in half. check to see if equal
+- if not, check left and right to see which closer
+- divide that side in half
+- and so on
+- binary search
+

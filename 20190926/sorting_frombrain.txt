@@ -1,0 +1,5 @@
+- easy - bubble sort - compare and switch all numbers until they are sorted
+- the binary search of sorting - is this quicksort???
+    1. go to middle
+    2. check left of middle for higher and right for lower
+
