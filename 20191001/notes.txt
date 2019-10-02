@@ -1,0 +1,20 @@
+- this_style is the C style
+- thisStyle is C++ and therefore we will have to use it in this class going forward... ugh
+- other style guidelines are good
+_____GENERAL STYLE GUIDELINE NOTES_____
+- don't initialize your variable on one line and then assign it on another line. It isn't 1984
+    anymore gramps
+- but still declare your variables at the top of the code
+- declaration of local variables separated from the body of a function by a newline
+- this way is actually the old school unix way vvvv
+    if(thing){
+        hewo;
+    }else{
+        hi;
+    }
+    int     main(){
+                             <<<---- space here
+    variables here;
+    }
+_____REVIEW NOTES_____
+- 
