@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/10/03 10:39:33 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/10/03 10:41:19 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+- you can pass non array variables by reference too
+- when delcaring your function, put a & before the name of a parameter to pass
+    that parameter by reference, no matter what type of variable it is
+- ie void       move(int &karelX, int &karelY) 
