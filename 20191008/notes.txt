@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/10/08 09:13:32 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/10/08 10:24:28 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+- vector<int>myVector(20);
+- 2d vector = vector <vector<int>> myVector(20);
+- you don't need to use paren when you declare vectors, and if you do, it is only
+    initial size
+- &variable = work wiht the value at the address of the variable
