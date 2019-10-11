@@ -1,0 +1,35 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/10/10 09:06:51 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/10/10 10:32:17 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+- if you apply the & operator before a parameter name in a function declaration
+    you get the address of the variable passed in as a parameter
+- pointers let you store the address of variables
+- as u know u gotta declare like        int     *pointer
+- why? because if you declare int* pointer1, pointer2, it actually makes one
+    pointer and one int
+- *pointer will give the value stored at that pointer
+- pointer will give the pointer address
+- you don't have NULL in C++ you use nullptr instead
+- dynamic memory == heap memory == malloc time
+- there is no way to mathematically prove that a program does what you think it
+    does
+- DO NOT USE MALLOC IN YOUR C++ PROGRAM!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- unles you really really need to but that's super rare
+- using new and malloc in the same program causes death
+- new and then data type
+- delete myPointer just deletes what's pointed to by myPointer, not the pointer
+    itself
+- heap from the bottom up and sticks around
+- one pointer always have to be on the stack, even if you heap a pointer, u
+    need a stack pointer that points to a heap pointer
+- when u delete a heap allocated pointer, remember to set it to NULL because
+    otherwise u will be able to get the old value again 90% of the time 
