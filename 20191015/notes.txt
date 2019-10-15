@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/10/15 09:49:46 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/10/15 10:09:46 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+- u missed pointer math. remember that? not really. you could use re reading
+    the slides
+- cctype library functions: isdigit(char c), islower(char c), isalnum, isalpha,
+    isblank, iscntrl, isprint, ispunct, isspace, isupper, isxdigit (hex digits),
+    tolower, toupper
