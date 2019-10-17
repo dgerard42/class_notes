@@ -1,0 +1,28 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/10/17 09:08:25 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/10/17 10:36:33 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+_____REVIEW_____
+- new and delete keywords, remember em. also, set pointer to nullptr not NULL
+    after delete
+_____CSTRINGS_____
+- char stackCString[40] = "sky rat";                                                                           
+- ^^ in this case, there is a whole lotta empty memory after the last assigned
+    char
+- the null terminator seems to auto add. i had forgotten that.
+- auto convert a Cstring to a c++ string?
+    const char *helloCString = helloString.c_str();
+- remember that ^^^ this returns a CONST!!!!!!!!
+_____RECURSION_____
+- base case is the stopping point of recursion
+- recursive case is the keep going part
+- STACK OVERFLOW is the recursive segfault
+
