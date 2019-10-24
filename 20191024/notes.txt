@@ -1,0 +1,32 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/10/24 09:22:17 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/10/24 10:29:03 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+- always make sure there is a case at which the recursion will stop
+- your recursive case must get you closer to your base case
+- base case is the case at which your recursion will stop
+- because there is overhead each time you call a function, sometimes recursive
+    solutions are actually less efficient, even if they take up less space
+- more intuitive often, encourages a very clever and efficient solutions to some
+    almost impossible questions
+- label recursive case and base case within code
+- palindrome detector
+    - 0 - is string 0 or 1 chars long, if so return true
+    - 1 - compare first and last characters, if not equal return false
+    - 2 - string = string minus first and last character
+- each recursive step should get u closer to the base case
+
+_____IN CLASS EXERCISE_____
+- base case - start == end
+    return arr[start]
+- recursive case - start != end
+    run the function again with the result of arr[start] * arr[end] * function(start + 1, end - 1)
+
