@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/10/31 10:13:58 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/10/31 10:28:53 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+- there is a technique to linearize recursive functions by keeping tack of what
+    you already know
+- dynamic programming for escaping military bueacracy reasons
+- recursion but you keep track of what you already know
+- do that in an array
+- this prevents the recursive solution from finding the same solution more than
+    once, from branching too much, from the exponential growth 
+- useful for image merging
+- algorithm design manual 2nd ed skiena

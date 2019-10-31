@@ -5,8 +5,8 @@
 /*                                              `  ),    "-.                  */
 /*   By: dany <github.com/dgerard42>               |;;,      "-._             */
 /*                                                 ';;;,,    ",_ "=-._        */
-/*   Created: 2019/10/29 11:09:22 by dany            ':;;;;,,..-``"-._`"-.    */
-/*   Updated: 2019/10/31 09:18:09 by dany              _/_/`           `'"`   */
+/*   Created: 2019/10/31 09:25:47 by dany            ':;;;;,,..-``"-._`"-.    */
+/*   Updated: 2019/10/31 10:54:08 by dany              _/_/`           `'"`   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,21 +15,22 @@
 
 using namespace std;
 
-void        reverseString(string str){
+string         reverseString(string str, int position){
 
-    int len = str.length();
-    
-    if (len == 0)
-        return;
+    char    tmp = 'o';
+    int     length = str.length();
+
+    if (position <= (length - 1) / 2)
+        return str;
     else {
-        cout << str[len - 1];
-        reverseString(str.erase(len - 1, 1));
+        tmp = str[position];
+        str[position] = str[(length - 1) - position];
+        str[(length - 1) - position] = tmp;
+        reverseString(str, position + 1);
     }
 }
 
 int         main(){
 
-    reverseString("hello there");
-    cout << endl;
-    return 0;
+    cout << reverseString("hello", 0);
 }
