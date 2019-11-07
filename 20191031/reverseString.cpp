@@ -6,7 +6,7 @@
 /*   By: dany <github.com/dgerard42>               |;;,      "-._             */
 /*                                                 ';;;,,    ",_ "=-._        */
 /*   Created: 2019/10/31 09:25:47 by dany            ':;;;;,,..-``"-._`"-.    */
-/*   Updated: 2019/10/31 10:54:08 by dany              _/_/`           `'"`   */
+/*   Updated: 2019/10/31 10:56:56 by dany              _/_/`           `'"`   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,11 @@ string         reverseString(string str, int position){
         reverseString(str, position + 1);
     }
 }
+
+/*
+    this code is shit, you are returning a string not changing it in place.
+    decide which you are doing
+*/
 
 int         main(){
 

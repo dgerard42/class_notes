@@ -1,0 +1,43 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/11/07 09:11:58 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/11/07 11:22:16 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+- short circuit evaluation is the name for the thing that you knew about
+    conditional statements - that if the first statement is false, it doesn't
+    bother to evaluate the second statement
+- variable scope is actually v important for program memory management & speed
+- when you define something being passed 2 function, it is called a parameter
+- when you pass something (variable) to a function they're called arguements
+- passed by value == 2 copies
+- passed by refernce == 1 copy, 1 change changes value of all instances
+- make sure you use the const keyword when you pass a variable to a function
+    but don't want to change the value at all,  it's good form, and prevents
+    accidential editing
+- in addition to arrays, C++ has a number of other container data types in
+    what's called the Standard Template Library. Vectors are a more simple
+    STL container
+- try to use some vectors in this upcoming lab so you can actually learn how
+    to use them and remember long term
+- vectors can contain objects!!
+- vectors know their own size
+- vectors are actually better form in pretty much all cases, they are
+    dynamically 
+- if you want to access the variable actually stored at the address a pointer
+    points to, use the dereference operator, which is also represented by *
+- dereferencing a pointer doesn't change the pointer, it just means give me
+    what the pointer points to
+- make sure ya use nullptr after you use the delete keyword to delete the thing
+    that the pointer was pointing at
+- I didn't take notes on this because I ate some bbq chips and didn't want to
+    type, but there was a lot of good info on filereading that I took a photo
+    of
+ 
+
