@@ -1,0 +1,49 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/11/12 09:33:17 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/11/12 11:17:34 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+- instead of using a for loop in the file reading program, use a while loop
+- while(!inputFile.eof())
+- bitwise or works like |
+    0 0 0 0 0 0 0 1
+    0 0 0 0 0 0 1 0
+==  0 0 0 0 0 0 1 1
+- ios::in | ios::out
+- ios::app - add to the end of that file instead of erasing 
+- bitwise and (&)
+    0 0 0 0 0 1 0 1
+    0 0 0 0 0 1 1 0
+==  0 0 0 0 0 1 0 0
+- every time you multiply a number by 2, you shift all the bits down by one.
+    this is achieved faster by the << operator
+- computers opitimize all multiplications to use as many bitwise operators as
+    possible
+- when you pass an fstream object to a function, always pass by reference
+- if you expect and integer, and a user inputs characters, the input stream
+    enters a fail state
+- then you can't use that stream anymore until you clear or reset it
+- to reset:
+    if (cin.fail()){
+        cin.clear();
+        cin.ignore(500, '\n');
+}
+- even better cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    - make sure you use limits.h ^^^
+    - this allows you to ignore the entire buffer, every possible bad
+        character
+- WHEN U READ IN A FILENAME FROM CIN make sure you turn it into a cstring
+    before you use it in an ifstrem function
+        string fileName;
+        cin >> filename;
+        ifstream.open(fileName.c_str());
+
+
+
