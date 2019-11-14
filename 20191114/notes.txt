@@ -1,0 +1,55 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/11/14 09:12:16 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/11/14 10:12:48 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+enum            Direction{
+    NORTH, EAST, SOUTH, WEST
+};
+
+struct          Karel{
+    int         row;
+    int         column;
+    Direction   facing;
+    string      name;
+};
+
+- defining your own types with capital letter starts
+- In this enum, North is associated with 0, east with 1, south with 2, ect...
+- enums are from C++ 11
+- if you print out Direction firstEnum = NORTH, you will print out 0
+
+Karel       myFirstKarel;
+
+myFirstKarel.row = 14;
+myFirstKarel.name = "Karel T. Robot";
+
+class           Karel{
+public:
+    int         row;
+    int         column;
+    Direction   facing;
+    string      name;
+    void        karelMove();
+};
+
+struct version
+void    karelMove(Karel &karel){
+
+    if (karel.facing == NORTH)
+        karel.row -= 1;
+}
+
+class version
+void    Karel::karelMove(){
+    
+    if (facing == NORTH)
+        row -= 1;
+}
