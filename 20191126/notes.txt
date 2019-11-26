@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/11/26 09:13:01 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/11/26 11:10:22 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+- separate he interface from how the program is implemented, and then only
+    provide access to the interface
+- you only have to use the this keyword if you name your parameter the same
+    things as a parameter in your object
+- -> means dereference and then call that function
+- *(thing).otherthing
+- ComplexNumber ComplexNumber::multiply(const ComplexNumber &otherComplex) const)
+- this const keyword means that this function cant change the object ^^^^
+- every function

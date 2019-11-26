@@ -1,0 +1,41 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                   .--.                       #
+#    notes.txt                                   __/ o  ".                     #
+#                                               `  ),    "-.                   #
+#    By: dany <github.com/dgerard42>               |;;,      "-._              #
+#                                                  ';;;,,    ",_ "=-._         #
+#    Created: 2019/11/21 09:25:03 by dany            ':;;;;,,..-``"-._`"-.     #
+#    Updated: 2019/11/21 10:17:33 by dany              _/_/`           `'"`    #
+#                                                                              #
+# **************************************************************************** #
+
+- header file includes safety
+    #prgna once
+    OR
+    ifdef shit vvv
+    #include <iostream>
+    #ifndef IOSTREAM_H
+    #define IOSTREAM_H
+    #endif
+
+- for includes, you use <> for libraries that are part of the c++ standard and ""
+    for things that are not in the standard
+- "this" is a keyword that allows you to access the data in this instance of the
+    object, and not some other random variable by the same name
+        
+void Clock::getTime(int &hr, int &min, int &sec) const {
+    hr = this->hr;
+    min = this->min;
+    sec = this->sec;
+}
+
+- class defines what the object is like, object is an instance of the class
+- one constructor takes arguements, the other does not
+- default constructor - no arguements
+- other constructors names are defined by the number of arguments they accept
+    ie "the 2 parameter constructor"
+- member varaible == instance variables
+- variables in struct are public by default, variables in object are private by default
+- functions that change values inside the object (mutator or setter)
+- functions that get values inside objects (acessor or getter) 
